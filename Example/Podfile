@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'HBBoxKit_Example' do
+  pod 'HBBoxKit', :path => '../'
+
+  target 'HBBoxKit_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end

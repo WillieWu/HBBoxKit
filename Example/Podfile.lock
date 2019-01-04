@@ -1,0 +1,16 @@
+PODS:
+  - HBBoxKit (0.1.0)
+
+DEPENDENCIES:
+  - HBBoxKit (from `../`)
+
+EXTERNAL SOURCES:
+  HBBoxKit:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  HBBoxKit: 65abcd7dc3a69edcc0cae482f24e79c7e437ea4c
+
+PODFILE CHECKSUM: 625bfc353e48ad915e59d081c1ac6a8dbe4fad27
+
+COCOAPODS: 1.5.3

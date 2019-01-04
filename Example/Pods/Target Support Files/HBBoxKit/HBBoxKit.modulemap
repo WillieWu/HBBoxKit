@@ -1,0 +1,6 @@
+framework module HBBoxKit {
+  umbrella header "HBBoxKit-umbrella.h"
+
+  export *
+  module * { export * }
+}
