@@ -22,7 +22,7 @@ pod 'HBBoxKit'
 
 ## Author
 
-伍宏彬, hongbin.wu@56qq.com
+hongbin.wu 601479318@qq.com
 
 ## License
 
