@@ -1,8 +1,8 @@
 use_frameworks!
 
 target 'HBBoxKit_Example' do
-#   pod 'HBBoxKit', :path => '../'
-  pod 'HBBoxKit'
+   pod 'HBBoxKit', :path => '../'
+#  pod 'HBBoxKit'
 
   target 'HBBoxKit_Tests' do
     inherit! :search_paths

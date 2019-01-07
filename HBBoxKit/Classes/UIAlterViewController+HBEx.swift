@@ -9,19 +9,19 @@ import Foundation
 
 public extension UIAlertController {
     public class func hb_showAlertStyle(title: String?, content: String?, actionNames: [(String, UIAlertAction.Style)], actionHandle: @escaping ((_ actionName: String, _ actionIndex: Int) -> ())) {
-        ap_show(title: title, content: content, style: .alert, actionNames: actionNames, actionHandle: actionHandle)
+        hb_show(title: title, content: content, style: .alert, actionNames: actionNames, actionHandle: actionHandle)
     }
     
     public class func hb_showAlertStyle(content: String?, actionNames: [(String, UIAlertAction.Style)], actionHandle: @escaping ((_ actionName: String, _ actionIndex: Int) -> ())) {
-        ap_show(title: nil, content: content, style: .alert, actionNames: actionNames, actionHandle: actionHandle)
+        hb_show(title: nil, content: content, style: .alert, actionNames: actionNames, actionHandle: actionHandle)
     }
     
     public class func hb_showSheetStyle(actions actionNames: [(String, UIAlertAction.Style)], actionHandle: @escaping ((_ actionName: String, _ actionIndex: Int) -> ())) {
-        ap_show(title: nil, content: nil, style: .actionSheet, actionNames: actionNames, actionHandle: actionHandle)
+        hb_show(title: nil, content: nil, style: .actionSheet, actionNames: actionNames, actionHandle: actionHandle)
     }
     
     public class func hb_showSheetStyleTitle(_ title: String, actionNames: [(String, UIAlertAction.Style)], actionHandle: @escaping ((_ actionName: String, _ actionIndex: Int) -> ())) {
-        ap_show(title: title, content: nil, style: .actionSheet, actionNames: actionNames, actionHandle: actionHandle)
+        hb_show(title: title, content: nil, style: .actionSheet, actionNames: actionNames, actionHandle: actionHandle)
     }
     
     public class func hb_show(title: String?, content: String?, style: UIAlertController.Style, actionNames: [(String, UIAlertAction.Style)], actionHandle: @escaping ((_ actionName: String, _ actionIndex: Int) -> ())) {

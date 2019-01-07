@@ -1,16 +1,16 @@
 PODS:
-  - HBBoxKit (0.1.0)
+  - HBBoxKit (0.1.2)
 
 DEPENDENCIES:
-  - HBBoxKit
+  - HBBoxKit (from `../`)
 
-SPEC REPOS:
-  https://github.com/cocoapods/specs.git:
-    - HBBoxKit
+EXTERNAL SOURCES:
+  HBBoxKit:
+    :path: "../"
 
 SPEC CHECKSUMS:
-  HBBoxKit: 5a244830f7b9a989d69b6bfe903c674a15056aac
+  HBBoxKit: 2af47f26eeaba92f4ea03f24d6625d8a573779bb
 
-PODFILE CHECKSUM: 3579fe72e9c1a5a38bce347e4407e85fa91b0ba1
+PODFILE CHECKSUM: 4718cdb1f41fa0f5051e4ac2ee8bde2bb4c3abd1
 
 COCOAPODS: 1.5.3
