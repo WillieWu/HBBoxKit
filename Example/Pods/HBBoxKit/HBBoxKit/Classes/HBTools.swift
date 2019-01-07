@@ -10,19 +10,6 @@ import Photos
 import UserNotifications
 import CoreLocation
 
-public func HBLog<T>(_ message:T, file:String = #file, function:String = #function,
-              line:Int = #line) {
-    #if DEBUG
-    //获取文件名
-    let fileName = (file as NSString).lastPathComponent
-    //打印日志内容
-    print("↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓  star ↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓")
-    print("  [\(fileName)] [line \(line)] \(function)")
-    print("  => \(message) \n")
-    print("↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑  end  ↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑")
-    #endif
-}
-
 public extension DispatchQueue {
     private static var _onceTracker = [String]()
     public class func hb_once(token: String, block: () -> ()) {
@@ -91,7 +78,7 @@ public extension HBTools {
     
     /// 打开URL
     ///
-    /// - Parameter urlString: 设置页面：UIApplicationOpenSettingsURLString
+    /// - Parameter urlString: UIApplicationOpenSettingsURLString
     public class func hb_openSettingPage(urlString: String) {
         let settingURL = URL(string: urlString)
         guard let getURL = settingURL else {
@@ -131,52 +118,53 @@ public extension HBTools {
     /// 请求麦克风权限
     public class func hb_requestMicroPermission(_ permissionStatus: ((_ success: Bool) -> ())?) {
         let authStatus = AVCaptureDevice.authorizationStatus(for: AVMediaType.audio)
-        guard authStatus != AVAuthorizationStatus.authorized else {
-            permissionStatus?(true)
-            return
-        }
-        if authStatus == AVAuthorizationStatus.denied {
+        if authStatus == AVAuthorizationStatus.notDetermined {
+            AVCaptureDevice.requestAccess(for: AVMediaType.audio) { (granted) in
+                permissionStatus?(granted)
+            }
+        } else if authStatus == AVAuthorizationStatus.restricted || authStatus == AVAuthorizationStatus.denied {
             permissionStatus?(false)
-        }
-        AVCaptureDevice.requestAccess(for: AVMediaType.audio) { (granted) in
-            permissionStatus?(granted)
+        } else {
+            permissionStatus?(true)
         }
     }
     
     /// 请求摄像头权限
     public class func hb_requestCameraPermission(_ permissionStatus: ((_ success: Bool) -> ())?) {
         let authStatus = AVCaptureDevice.authorizationStatus(for: AVMediaType.video)
-        guard authStatus != AVAuthorizationStatus.authorized else {
-            permissionStatus?(true)
-            return
-        }
-        if authStatus == AVAuthorizationStatus.denied {
+        if authStatus == AVAuthorizationStatus.notDetermined {
+            AVCaptureDevice.requestAccess(for: AVMediaType.video) { (granted) in
+                permissionStatus?(granted)
+            }
+        } else if authStatus == AVAuthorizationStatus.restricted || authStatus == AVAuthorizationStatus.denied {
             permissionStatus?(false)
-        }
-        AVCaptureDevice.requestAccess(for: AVMediaType.video) { (granted) in
-            permissionStatus?(granted)
+        } else {
+            permissionStatus?(true)
         }
     }
     
     /// 请求相册
     public class func hb_requestAlbumPermission(_ permissionStatus: ((_ success: Bool) -> ())?) {
         let authStatus = PHPhotoLibrary.authorizationStatus()
-        guard authStatus != PHAuthorizationStatus.authorized else {
-            permissionStatus?(true)
-            return
-        }
-        if authStatus == PHAuthorizationStatus.denied {
+        if authStatus == PHAuthorizationStatus.restricted || authStatus == PHAuthorizationStatus.denied {
             permissionStatus?(false)
-        }
-        PHPhotoLibrary.requestAuthorization { (phStatus) in
-            permissionStatus?(phStatus == PHAuthorizationStatus.authorized)
+        } else if authStatus == PHAuthorizationStatus.notDetermined {
+            PHPhotoLibrary.requestAuthorization { (phStatus) in
+                if phStatus == PHAuthorizationStatus.authorized {
+                    permissionStatus?(true)
+                } else {
+                    permissionStatus?(false)
+                }
+            }
+        } else {
+            permissionStatus?(true)
         }
     }
     
     /// 请求本地推送和远程推送权限
-    /// 只需要在失败的时候，做响应的提示或处理就行了。UNUserNotificationCenter需设置代理，接受推送消息
+    /// 只需要在失败的时候，做响应的提示或处理就行了
     /// - Parameter permissionStatus: 授权成功或失败（用户没有选择的时候，会自动请求授权）
-    public class func hb_requestPushPermission(_ permissionStatus: ((_ success: Bool) -> ())?) {
+    public class func requestPushPermission(_ permissionStatus: ((_ success: Bool) -> ())?) {
         //请求本地通知权限
         if #available(iOS 10.0, *) {
             UNUserNotificationCenter.current().getNotificationSettings { (notifaSetting) in
@@ -195,8 +183,7 @@ public extension HBTools {
                         }
                     }
                 } else {
-                    NSLog("本地通知授权-拒绝？？？")
-                    permissionStatus?(false)
+                    NSLog("本地通知授权-羊羊羊？？？")
                 }
             }
         } else {
@@ -271,7 +258,7 @@ public extension HBTools {
 public extension HBTools {
     
     /// 根据视频PHAsset, 导出视频到沙盒，获取视频沙盒url
-    public class func hb_requestVideoURL(FromAsset asset: PHAsset, complete: @escaping ((_ success: Bool, _ fileURL: URL?) -> ())) {
+    public class func help_requestVideoURL(FromAsset asset: PHAsset, complete: @escaping ((_ success: Bool, _ fileURL: URL?) -> ())) {
         guard asset.mediaType == .video else {
             NSLog("asset 类型错误: \(asset) 不是视频类型")
             return
@@ -314,7 +301,7 @@ public extension HBTools {
     ///   - isOriginaImage: 是否请求原图，是：imageSize为PHImageManagerMaximumSize，否：返回imageSize参数相近大小
     ///   - imageSize: 请求图片的大小
     ///   - complete: 图片获取完成回调
-    public class func hb_requestImage(fromAsset photoAsset: PHAsset, isOriginaImage: Bool = false, imageSize: CGSize, complete: @escaping ((_ getImage: UIImage?)->())) {
+    public class func help_requestImage(fromAsset photoAsset: PHAsset, isOriginaImage: Bool = false, imageSize: CGSize, complete: @escaping ((_ getImage: UIImage?)->())) {
         var requestOptions: PHImageRequestOptions?
         if !isOriginaImage {
             requestOptions = PHImageRequestOptions()

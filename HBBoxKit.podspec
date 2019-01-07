@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'HBBoxKit'
-  s.version          = '0.1.0'
+  s.version          = '0.1.1'
   s.summary          = 'Common utility classes'
 
 # This description is used to generate tags and improve search results.
@@ -30,7 +30,7 @@ Pod::Spec.new do |s|
 
   s.ios.deployment_target = '8.0'
   s.swift_version = '4.0'
-  
+  s.requires_arc = true
   s.source_files = 'HBBoxKit/Classes/*.swift'
   
   # s.resource_bundles = {
