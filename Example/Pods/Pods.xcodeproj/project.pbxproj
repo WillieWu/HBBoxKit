@@ -7,27 +7,27 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		07A5D57DE40AFDDCA5EAD4D01688D752 /* UserNotifications.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FC351C1F7D9838396F222E36E4E22FF6 /* UserNotifications.framework */; };
+		0A6BDCAB1BFBBE98C90DBE3D7406D0A0 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B938AE91B1A05E1A1E7B94AC140D26F2 /* CoreLocation.framework */; };
+		0D183E478BF4C1FF5CC1B4827B192906 /* Data+HBEx.swift in Sources */ = {isa = PBXBuildFile; fileRef = 906228EE97189D0E9CFD624CF70D9C1A /* Data+HBEx.swift */; };
 		0FE30FDBE0CD315055C7E49CB9CBBF9F /* Pods-HBBoxKit_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = DC2746B3C2C40C93BC5519B95A5DD03A /* Pods-HBBoxKit_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		1FC2062B420CFB67467681E16321BDBE /* UIAlterViewController+HBEx.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CD422EA9BD5D18196D9D17796E9BFA1 /* UIAlterViewController+HBEx.swift */; };
-		20FE9BFE095A10009B5F08A4EAD0BBF8 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B938AE91B1A05E1A1E7B94AC140D26F2 /* CoreLocation.framework */; };
+		2369B8F8B19C16D15ADE55C6FF4A7BB9 /* FileManager+HBEx.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1A58862EEEB4B4CEA1610637EE17561 /* FileManager+HBEx.swift */; };
 		2B49940FFA9CD2D36BF4EEDEA66D72C8 /* Pods-HBBoxKit_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B6E99B7633BAF28F7D5D59FAE6D8DC2 /* Pods-HBBoxKit_Example-dummy.m */; };
 		2BFEAEE2D4F06743B18E3B31C278852F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 77B83DCA083CBE59408B60D420E1B815 /* Foundation.framework */; };
+		2CFA3EB6E739259EA672E1109A60562E /* HBBoxKit-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 910A8DD0A9810B78A9EE98CFAD833BA6 /* HBBoxKit-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		455C2E19EE74C8BA376D9E1B19BA98D6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 77B83DCA083CBE59408B60D420E1B815 /* Foundation.framework */; };
-		5EC1EF985D859DD8B49C02ECAE576FC1 /* UIImage+HBEx.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2525BA3115FAFDE3892C4DABD25CA9E /* UIImage+HBEx.swift */; };
-		5EF9C1F721EDAC3400A090D1 /* String+HBEx.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EF9C1F621EDAC3400A090D1 /* String+HBEx.swift */; };
-		72E235F4605363524DDF35BB3B43612E /* Date+HBEx.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9490DBF2E5A974BAEF1DF00878B010E1 /* Date+HBEx.swift */; };
+		45F8CCC3A8D1DF022C137F8FBEDD90D3 /* UIAlterViewController+HBEx.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAA7F905D8946D1F2CBA1F2A898E76C4 /* UIAlterViewController+HBEx.swift */; };
+		544291EDDDB2F2C8A57B53B098504531 /* UserNotifications.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FC351C1F7D9838396F222E36E4E22FF6 /* UserNotifications.framework */; };
+		5B5CFCDA86EAD6355F862CA268240B95 /* UIImage+HBEx.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5855EC32DFE25299A28759EFCDF8FDE /* UIImage+HBEx.swift */; };
+		5B68BD21DE663D5C20992172B28C80E3 /* HBTools.swift in Sources */ = {isa = PBXBuildFile; fileRef = D10D04B7BD0B2DA10D2B1436156041F0 /* HBTools.swift */; };
+		5F4FD0A0B4892A9558D2C8DADCF0DF18 /* Photos.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 200EE4632494EB1E6C06D4DE42F61B06 /* Photos.framework */; };
 		781172282A915D1D8D37D1AE5E365A59 /* Pods-HBBoxKit_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2F0732263C5D84FF1F9D10D2CF000ED7 /* Pods-HBBoxKit_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		80650BBA08C0CE9A60346DBBEB72C3C6 /* HBBoxKit-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = FF5D4BBC23B76866FFB0B945C4D56C0A /* HBBoxKit-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		85C926194E1E0EB5EDF8E8E23FCD9567 /* Data+HBEx.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53B045D9A2352DE59C69DFA349C48B09 /* Data+HBEx.swift */; };
-		B286DB5516A0D58655774A4043D6214A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 77B83DCA083CBE59408B60D420E1B815 /* Foundation.framework */; };
-		BABD4D1E73D7E740026CF1EA5D57A8F0 /* Color+HBEx.swift in Sources */ = {isa = PBXBuildFile; fileRef = 250F4E1A0DE82A507A9DE5DEB132AA12 /* Color+HBEx.swift */; };
+		A5405898AE040A0DCF3B72A2ABE74E42 /* Color+HBEx.swift in Sources */ = {isa = PBXBuildFile; fileRef = D185A793B31C48A78567DF64ABBD166C /* Color+HBEx.swift */; };
+		A5BFFE2F59BD895B23AC07FC13F5FB60 /* HBBoxKit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E3496CA196038DF3B35BDCE0FD529A8 /* HBBoxKit-dummy.m */; };
+		AD6C45C675065C90F5649C18AB554A9D /* String+HBEx.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41E5D1B9AD490C42FFD3685AC8762DD0 /* String+HBEx.swift */; };
+		ADEDF70BF7E54C2677A69C774B973A08 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 77B83DCA083CBE59408B60D420E1B815 /* Foundation.framework */; };
 		BD07A455E997F0466AF4AD0189474032 /* Pods-HBBoxKit_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = EC88F7AB4F6370D9B1A0D37A4699E01D /* Pods-HBBoxKit_Tests-dummy.m */; };
-		D2DBB6F71780B7DBFFB4CDF344E4C6BD /* FileManager+HBEx.swift in Sources */ = {isa = PBXBuildFile; fileRef = 459DD27140C55C620896193B14DFB1E8 /* FileManager+HBEx.swift */; };
-		DAFAFAB32E7746E7797F3E1E536F29AD /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 856BFDF4A6829B698E3172298C3C5B63 /* UIKit.framework */; };
-		E6DDE974A18759E299C6E0B6BC1442B0 /* HBTools.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5872303FEA77608F68A9FA1BB89A94F /* HBTools.swift */; };
-		F8BDA117CA0ACE29438D3DB2CDB971C5 /* Photos.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 200EE4632494EB1E6C06D4DE42F61B06 /* Photos.framework */; };
-		FB92385F8D98A74F752B426617E5B27F /* HBBoxKit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 31ECE967BDA75BE9702AB2726529766C /* HBBoxKit-dummy.m */; };
+		CD3EE6ED10BBD171F882F3D3594FADD7 /* Date+HBEx.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15AA9453566F31DE749F5EF36B8BA237 /* Date+HBEx.swift */; };
+		D1469FE307438DFF653FEEE08E69E4FB /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 856BFDF4A6829B698E3172298C3C5B63 /* UIKit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,7 +35,7 @@
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = BAF548D1F81D53B1DC3F13DA1C7BE764;
+			remoteGlobalIDString = 8E87A26C65500FDF3CC667FBE972A170;
 			remoteInfo = HBBoxKit;
 		};
 		FDC8950FBD6E1D8A9865795C2741EDFA /* PBXContainerItemProxy */ = {
@@ -48,52 +48,52 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		1A13021A84219A532596168808975AC2 /* HBBoxKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = HBBoxKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		0CFCED12C07EBB0AAEAD9DCE6F90BD85 /* HBBoxKit.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = HBBoxKit.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		15AA9453566F31DE749F5EF36B8BA237 /* Date+HBEx.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Date+HBEx.swift"; path = "HBBoxKit/Classes/Date+HBEx.swift"; sourceTree = "<group>"; };
+		1A13021A84219A532596168808975AC2 /* HBBoxKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = HBBoxKit.framework; path = HBBoxKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1E3496CA196038DF3B35BDCE0FD529A8 /* HBBoxKit-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "HBBoxKit-dummy.m"; sourceTree = "<group>"; };
 		1F89A83ED93D850FF56C513895D7F5AD /* Pods-HBBoxKit_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-HBBoxKit_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		200EE4632494EB1E6C06D4DE42F61B06 /* Photos.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Photos.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/Photos.framework; sourceTree = DEVELOPER_DIR; };
-		250F4E1A0DE82A507A9DE5DEB132AA12 /* Color+HBEx.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Color+HBEx.swift"; path = "HBBoxKit/Classes/Color+HBEx.swift"; sourceTree = "<group>"; };
 		29CFFA1E21926061EC7277083A5C3E78 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2F0732263C5D84FF1F9D10D2CF000ED7 /* Pods-HBBoxKit_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-HBBoxKit_Example-umbrella.h"; sourceTree = "<group>"; };
 		3008002A46001EBC439CAACCF2526E2C /* Pods-HBBoxKit_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-HBBoxKit_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		31ECE967BDA75BE9702AB2726529766C /* HBBoxKit-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "HBBoxKit-dummy.m"; sourceTree = "<group>"; };
 		3AA0C2F032E7D7C1157F76E557BABA81 /* Pods-HBBoxKit_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-HBBoxKit_Example-resources.sh"; sourceTree = "<group>"; };
-		459DD27140C55C620896193B14DFB1E8 /* FileManager+HBEx.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "FileManager+HBEx.swift"; path = "HBBoxKit/Classes/FileManager+HBEx.swift"; sourceTree = "<group>"; };
-		53B045D9A2352DE59C69DFA349C48B09 /* Data+HBEx.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Data+HBEx.swift"; path = "HBBoxKit/Classes/Data+HBEx.swift"; sourceTree = "<group>"; };
-		5EF9C1F621EDAC3400A090D1 /* String+HBEx.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "String+HBEx.swift"; path = "HBBoxKit/Classes/String+HBEx.swift"; sourceTree = "<group>"; };
-		619A5283A31674A145B13D50E9AA3B9B /* Pods_HBBoxKit_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HBBoxKit_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		6C451CC6FF3D4007DEB17C8ADD697FBC /* HBBoxKit.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = HBBoxKit.modulemap; sourceTree = "<group>"; };
+		41E5D1B9AD490C42FFD3685AC8762DD0 /* String+HBEx.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "String+HBEx.swift"; path = "HBBoxKit/Classes/String+HBEx.swift"; sourceTree = "<group>"; };
+		4D1FAEBF73D5B146C65A94E05D132E93 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		619A5283A31674A145B13D50E9AA3B9B /* Pods_HBBoxKit_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_HBBoxKit_Example.framework; path = "Pods-HBBoxKit_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6A56191D02047BD25E2EB0F8A1AA7DB8 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
 		700F85D1132A90DEE28A04D633248888 /* Pods-HBBoxKit_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-HBBoxKit_Example-frameworks.sh"; sourceTree = "<group>"; };
+		72390516389BF093C5869889FA1EB659 /* HBBoxKit.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = HBBoxKit.modulemap; sourceTree = "<group>"; };
 		768026D80FBC08A390161F10BD070D68 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		77B83DCA083CBE59408B60D420E1B815 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		77C4ACD8B75EB66F74EB0E7499E953FE /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7B6E99B7633BAF28F7D5D59FAE6D8DC2 /* Pods-HBBoxKit_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-HBBoxKit_Example-dummy.m"; sourceTree = "<group>"; };
-		80261DEEF3791F68316801CA73583A92 /* Pods_HBBoxKit_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HBBoxKit_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		80261DEEF3791F68316801CA73583A92 /* Pods_HBBoxKit_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_HBBoxKit_Tests.framework; path = "Pods-HBBoxKit_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		849A9FF48999E39523A966044264AED2 /* Pods-HBBoxKit_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-HBBoxKit_Tests-frameworks.sh"; sourceTree = "<group>"; };
 		856BFDF4A6829B698E3172298C3C5B63 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
-		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		93FBC40A76352D947D59CC0A37DB9C6C /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
-		9490DBF2E5A974BAEF1DF00878B010E1 /* Date+HBEx.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Date+HBEx.swift"; path = "HBBoxKit/Classes/Date+HBEx.swift"; sourceTree = "<group>"; };
+		906228EE97189D0E9CFD624CF70D9C1A /* Data+HBEx.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Data+HBEx.swift"; path = "HBBoxKit/Classes/Data+HBEx.swift"; sourceTree = "<group>"; };
+		910A8DD0A9810B78A9EE98CFAD833BA6 /* HBBoxKit-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "HBBoxKit-umbrella.h"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		968025FD5284B840CD71133DE2863CCD /* Pods-HBBoxKit_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HBBoxKit_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		9CD422EA9BD5D18196D9D17796E9BFA1 /* UIAlterViewController+HBEx.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIAlterViewController+HBEx.swift"; path = "HBBoxKit/Classes/UIAlterViewController+HBEx.swift"; sourceTree = "<group>"; };
-		A3DA0C0A485D681230F92A3903CE88E7 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
-		A4296659A832C9B83CC13E4D0875887F /* HBBoxKit.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = HBBoxKit.xcconfig; sourceTree = "<group>"; };
+		A8105F6A6C92BB0572F7D32267675D08 /* HBBoxKit-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "HBBoxKit-prefix.pch"; sourceTree = "<group>"; };
 		B938AE91B1A05E1A1E7B94AC140D26F2 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/CoreLocation.framework; sourceTree = DEVELOPER_DIR; };
+		BC82F2FD16D572A5220AAD1F18F94797 /* HBBoxKit.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = HBBoxKit.xcconfig; sourceTree = "<group>"; };
 		BDF7C8EE1D6CA0DC613C46D29D4D6AF3 /* Pods-HBBoxKit_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-HBBoxKit_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		C6C7C603A3075B7F298E013F143D05BE /* Pods-HBBoxKit_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-HBBoxKit_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		CB54BCF5616DEB9AF263C9826F411D3B /* Pods-HBBoxKit_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-HBBoxKit_Tests.modulemap"; sourceTree = "<group>"; };
 		CE02B676A53168CFE4B3479C1B5EB87F /* Pods-HBBoxKit_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-HBBoxKit_Example.modulemap"; sourceTree = "<group>"; };
+		D10D04B7BD0B2DA10D2B1436156041F0 /* HBTools.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HBTools.swift; path = HBBoxKit/Classes/HBTools.swift; sourceTree = "<group>"; };
+		D185A793B31C48A78567DF64ABBD166C /* Color+HBEx.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Color+HBEx.swift"; path = "HBBoxKit/Classes/Color+HBEx.swift"; sourceTree = "<group>"; };
 		D9C2F37DF8F2A1EB7D24599B93A07496 /* Pods-HBBoxKit_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HBBoxKit_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		DC2746B3C2C40C93BC5519B95A5DD03A /* Pods-HBBoxKit_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-HBBoxKit_Tests-umbrella.h"; sourceTree = "<group>"; };
 		DD40CB0C121C4D533AA46258BFDBA19E /* Pods-HBBoxKit_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HBBoxKit_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		E2525BA3115FAFDE3892C4DABD25CA9E /* UIImage+HBEx.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIImage+HBEx.swift"; path = "HBBoxKit/Classes/UIImage+HBEx.swift"; sourceTree = "<group>"; };
-		E5872303FEA77608F68A9FA1BB89A94F /* HBTools.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HBTools.swift; path = HBBoxKit/Classes/HBTools.swift; sourceTree = "<group>"; };
-		E90B234C18BE382150922870C52ED801 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E1A58862EEEB4B4CEA1610637EE17561 /* FileManager+HBEx.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "FileManager+HBEx.swift"; path = "HBBoxKit/Classes/FileManager+HBEx.swift"; sourceTree = "<group>"; };
+		EAA7F905D8946D1F2CBA1F2A898E76C4 /* UIAlterViewController+HBEx.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIAlterViewController+HBEx.swift"; path = "HBBoxKit/Classes/UIAlterViewController+HBEx.swift"; sourceTree = "<group>"; };
 		EC88F7AB4F6370D9B1A0D37A4699E01D /* Pods-HBBoxKit_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-HBBoxKit_Tests-dummy.m"; sourceTree = "<group>"; };
 		EE7B24ADE4B57D3A2FEDCFC972E05B10 /* Pods-HBBoxKit_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HBBoxKit_Example.release.xcconfig"; sourceTree = "<group>"; };
-		F7CAD86E648F519BC9ECF149B4DF669F /* HBBoxKit-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "HBBoxKit-prefix.pch"; sourceTree = "<group>"; };
+		F5855EC32DFE25299A28759EFCDF8FDE /* UIImage+HBEx.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIImage+HBEx.swift"; path = "HBBoxKit/Classes/UIImage+HBEx.swift"; sourceTree = "<group>"; };
 		FC351C1F7D9838396F222E36E4E22FF6 /* UserNotifications.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UserNotifications.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/UserNotifications.framework; sourceTree = DEVELOPER_DIR; };
-		FCFC4D8693BC0FED331A4071CC5DBEED /* HBBoxKit.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; path = HBBoxKit.podspec; sourceTree = "<group>"; };
 		FEEC9722409DDD3A2841F7EBB23F9757 /* Pods-HBBoxKit_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-HBBoxKit_Tests-resources.sh"; sourceTree = "<group>"; };
-		FF5D4BBC23B76866FFB0B945C4D56C0A /* HBBoxKit-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "HBBoxKit-umbrella.h"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -113,27 +113,33 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		4958D601C7FB77F7D4320FF7168E9806 /* Frameworks */ = {
+		71BC38576AE98548A088C4DCD8EAB03A /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				20FE9BFE095A10009B5F08A4EAD0BBF8 /* CoreLocation.framework in Frameworks */,
-				B286DB5516A0D58655774A4043D6214A /* Foundation.framework in Frameworks */,
-				F8BDA117CA0ACE29438D3DB2CDB971C5 /* Photos.framework in Frameworks */,
-				DAFAFAB32E7746E7797F3E1E536F29AD /* UIKit.framework in Frameworks */,
-				07A5D57DE40AFDDCA5EAD4D01688D752 /* UserNotifications.framework in Frameworks */,
+				0A6BDCAB1BFBBE98C90DBE3D7406D0A0 /* CoreLocation.framework in Frameworks */,
+				ADEDF70BF7E54C2677A69C774B973A08 /* Foundation.framework in Frameworks */,
+				5F4FD0A0B4892A9558D2C8DADCF0DF18 /* Photos.framework in Frameworks */,
+				D1469FE307438DFF653FEEE08E69E4FB /* UIKit.framework in Frameworks */,
+				544291EDDDB2F2C8A57B53B098504531 /* UserNotifications.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		1CE527BFAE8E4B9C213A3415DE410223 /* Development Pods */ = {
+		07C5C8AE2350AFA5B85C7283F48F13EA /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				6AE46260B9C2F60506D80D164134BE34 /* HBBoxKit */,
+				72390516389BF093C5869889FA1EB659 /* HBBoxKit.modulemap */,
+				BC82F2FD16D572A5220AAD1F18F94797 /* HBBoxKit.xcconfig */,
+				1E3496CA196038DF3B35BDCE0FD529A8 /* HBBoxKit-dummy.m */,
+				A8105F6A6C92BB0572F7D32267675D08 /* HBBoxKit-prefix.pch */,
+				910A8DD0A9810B78A9EE98CFAD833BA6 /* HBBoxKit-umbrella.h */,
+				77C4ACD8B75EB66F74EB0E7499E953FE /* Info.plist */,
 			);
-			name = "Development Pods";
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/HBBoxKit";
 			sourceTree = "<group>";
 		};
 		1FD56E68D3FFFABE4BAD1CC043CF3B23 /* iOS */ = {
@@ -166,14 +172,32 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		4046E41AFDAD1936B4181C0CDEB08CCF /* Pod */ = {
+		2E9CF1B44F57BE92DF5A0D0AE62DED6D /* Pod */ = {
 			isa = PBXGroup;
 			children = (
-				FCFC4D8693BC0FED331A4071CC5DBEED /* HBBoxKit.podspec */,
-				93FBC40A76352D947D59CC0A37DB9C6C /* LICENSE */,
-				A3DA0C0A485D681230F92A3903CE88E7 /* README.md */,
+				0CFCED12C07EBB0AAEAD9DCE6F90BD85 /* HBBoxKit.podspec */,
+				6A56191D02047BD25E2EB0F8A1AA7DB8 /* LICENSE */,
+				4D1FAEBF73D5B146C65A94E05D132E93 /* README.md */,
 			);
 			name = Pod;
+			sourceTree = "<group>";
+		};
+		357F1725F82007CA279B702675049A08 /* HBBoxKit */ = {
+			isa = PBXGroup;
+			children = (
+				D185A793B31C48A78567DF64ABBD166C /* Color+HBEx.swift */,
+				906228EE97189D0E9CFD624CF70D9C1A /* Data+HBEx.swift */,
+				15AA9453566F31DE749F5EF36B8BA237 /* Date+HBEx.swift */,
+				E1A58862EEEB4B4CEA1610637EE17561 /* FileManager+HBEx.swift */,
+				D10D04B7BD0B2DA10D2B1436156041F0 /* HBTools.swift */,
+				41E5D1B9AD490C42FFD3685AC8762DD0 /* String+HBEx.swift */,
+				EAA7F905D8946D1F2CBA1F2A898E76C4 /* UIAlterViewController+HBEx.swift */,
+				F5855EC32DFE25299A28759EFCDF8FDE /* UIImage+HBEx.swift */,
+				2E9CF1B44F57BE92DF5A0D0AE62DED6D /* Pod */,
+				07C5C8AE2350AFA5B85C7283F48F13EA /* Support Files */,
+			);
+			name = HBBoxKit;
+			path = ../..;
 			sourceTree = "<group>";
 		};
 		40C18D78DFB9CB32DCCE6D2318B597E5 /* Pods-HBBoxKit_Tests */ = {
@@ -194,47 +218,23 @@
 			path = "Target Support Files/Pods-HBBoxKit_Tests";
 			sourceTree = "<group>";
 		};
-		6AE46260B9C2F60506D80D164134BE34 /* HBBoxKit */ = {
+		6D8AB20856F798FA1439A173485BEE54 /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				5EF9C1F621EDAC3400A090D1 /* String+HBEx.swift */,
-				250F4E1A0DE82A507A9DE5DEB132AA12 /* Color+HBEx.swift */,
-				53B045D9A2352DE59C69DFA349C48B09 /* Data+HBEx.swift */,
-				9490DBF2E5A974BAEF1DF00878B010E1 /* Date+HBEx.swift */,
-				459DD27140C55C620896193B14DFB1E8 /* FileManager+HBEx.swift */,
-				E5872303FEA77608F68A9FA1BB89A94F /* HBTools.swift */,
-				9CD422EA9BD5D18196D9D17796E9BFA1 /* UIAlterViewController+HBEx.swift */,
-				E2525BA3115FAFDE3892C4DABD25CA9E /* UIImage+HBEx.swift */,
-				4046E41AFDAD1936B4181C0CDEB08CCF /* Pod */,
-				96279798E1A1B33820CAFFFA52EB318C /* Support Files */,
+				357F1725F82007CA279B702675049A08 /* HBBoxKit */,
 			);
-			name = HBBoxKit;
-			path = ../..;
+			name = "Development Pods";
 			sourceTree = "<group>";
 		};
 		7DB346D0F39D3F0E887471402A8071AB = {
 			isa = PBXGroup;
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
-				1CE527BFAE8E4B9C213A3415DE410223 /* Development Pods */,
+				6D8AB20856F798FA1439A173485BEE54 /* Development Pods */,
 				20B56609144CE204DFA8221F742B2D76 /* Frameworks */,
 				2295A165B0C9C5F786939A6652C1A7B2 /* Products */,
 				A27D4CECCB921DA8217D61E7FC905304 /* Targets Support Files */,
 			);
-			sourceTree = "<group>";
-		};
-		96279798E1A1B33820CAFFFA52EB318C /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				6C451CC6FF3D4007DEB17C8ADD697FBC /* HBBoxKit.modulemap */,
-				A4296659A832C9B83CC13E4D0875887F /* HBBoxKit.xcconfig */,
-				31ECE967BDA75BE9702AB2726529766C /* HBBoxKit-dummy.m */,
-				F7CAD86E648F519BC9ECF149B4DF669F /* HBBoxKit-prefix.pch */,
-				FF5D4BBC23B76866FFB0B945C4D56C0A /* HBBoxKit-umbrella.h */,
-				E90B234C18BE382150922870C52ED801 /* Info.plist */,
-			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/HBBoxKit";
 			sourceTree = "<group>";
 		};
 		A27D4CECCB921DA8217D61E7FC905304 /* Targets Support Files */ = {
@@ -275,19 +275,19 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		21F2833E4094AF852FB741972121549C /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				80650BBA08C0CE9A60346DBBEB72C3C6 /* HBBoxKit-umbrella.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		23A6C45161291D407873BC77F07EAE7B /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				0FE30FDBE0CD315055C7E49CB9CBBF9F /* Pods-HBBoxKit_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8DF59D5323B5B242402C845CAB481210 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2CFA3EB6E739259EA672E1109A60562E /* HBBoxKit-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -312,13 +312,13 @@
 			productReference = 619A5283A31674A145B13D50E9AA3B9B /* Pods_HBBoxKit_Example.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		BAF548D1F81D53B1DC3F13DA1C7BE764 /* HBBoxKit */ = {
+		8E87A26C65500FDF3CC667FBE972A170 /* HBBoxKit */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 88FF421476AA2184C4B4FA7F0AB0B9FE /* Build configuration list for PBXNativeTarget "HBBoxKit" */;
+			buildConfigurationList = 7359B273D1EEEAB85237A704E95C661F /* Build configuration list for PBXNativeTarget "HBBoxKit" */;
 			buildPhases = (
-				FCED3C5DB0AC0AE24D52E5B3AF4B87CF /* Sources */,
-				4958D601C7FB77F7D4320FF7168E9806 /* Frameworks */,
-				21F2833E4094AF852FB741972121549C /* Headers */,
+				6F59972218FE7A3BE6E7488F22BCA64B /* Sources */,
+				71BC38576AE98548A088C4DCD8EAB03A /* Frameworks */,
+				8DF59D5323B5B242402C845CAB481210 /* Headers */,
 			);
 			buildRules = (
 			);
@@ -368,7 +368,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				BAF548D1F81D53B1DC3F13DA1C7BE764 /* HBBoxKit */,
+				8E87A26C65500FDF3CC667FBE972A170 /* HBBoxKit */,
 				8DC695E5157CA1F6B996BA0B4E1806BB /* Pods-HBBoxKit_Example */,
 				CCE2AB796B215A58D0FFF73E4E510FCA /* Pods-HBBoxKit_Tests */,
 			);
@@ -392,19 +392,19 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		FCED3C5DB0AC0AE24D52E5B3AF4B87CF /* Sources */ = {
+		6F59972218FE7A3BE6E7488F22BCA64B /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BABD4D1E73D7E740026CF1EA5D57A8F0 /* Color+HBEx.swift in Sources */,
-				85C926194E1E0EB5EDF8E8E23FCD9567 /* Data+HBEx.swift in Sources */,
-				72E235F4605363524DDF35BB3B43612E /* Date+HBEx.swift in Sources */,
-				D2DBB6F71780B7DBFFB4CDF344E4C6BD /* FileManager+HBEx.swift in Sources */,
-				FB92385F8D98A74F752B426617E5B27F /* HBBoxKit-dummy.m in Sources */,
-				E6DDE974A18759E299C6E0B6BC1442B0 /* HBTools.swift in Sources */,
-				5EF9C1F721EDAC3400A090D1 /* String+HBEx.swift in Sources */,
-				1FC2062B420CFB67467681E16321BDBE /* UIAlterViewController+HBEx.swift in Sources */,
-				5EC1EF985D859DD8B49C02ECAE576FC1 /* UIImage+HBEx.swift in Sources */,
+				A5405898AE040A0DCF3B72A2ABE74E42 /* Color+HBEx.swift in Sources */,
+				0D183E478BF4C1FF5CC1B4827B192906 /* Data+HBEx.swift in Sources */,
+				CD3EE6ED10BBD171F882F3D3594FADD7 /* Date+HBEx.swift in Sources */,
+				2369B8F8B19C16D15ADE55C6FF4A7BB9 /* FileManager+HBEx.swift in Sources */,
+				A5BFFE2F59BD895B23AC07FC13F5FB60 /* HBBoxKit-dummy.m in Sources */,
+				5B68BD21DE663D5C20992172B28C80E3 /* HBTools.swift in Sources */,
+				AD6C45C675065C90F5649C18AB554A9D /* String+HBEx.swift in Sources */,
+				45F8CCC3A8D1DF022C137F8FBEDD90D3 /* UIAlterViewController+HBEx.swift in Sources */,
+				5B5CFCDA86EAD6355F862CA268240B95 /* UIImage+HBEx.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -420,7 +420,7 @@
 		466FC03433AA097AAAFDC06DCD9AF875 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = HBBoxKit;
-			target = BAF548D1F81D53B1DC3F13DA1C7BE764 /* HBBoxKit */;
+			target = 8E87A26C65500FDF3CC667FBE972A170 /* HBBoxKit */;
 			targetProxy = 4D7DCA2BABE2CC6B779A00E75EF1836D /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -557,71 +557,6 @@
 			};
 			name = Release;
 		};
-		90F1B88378BB8EF3241BD386A9B9FF85 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = A4296659A832C9B83CC13E4D0875887F /* HBBoxKit.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/HBBoxKit/HBBoxKit-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/HBBoxKit/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/HBBoxKit/HBBoxKit.modulemap";
-				PRODUCT_MODULE_NAME = HBBoxKit;
-				PRODUCT_NAME = HBBoxKit;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		990E37F12A6757091CD16242429A8247 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = A4296659A832C9B83CC13E4D0875887F /* HBBoxKit.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/HBBoxKit/HBBoxKit-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/HBBoxKit/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/HBBoxKit/HBBoxKit.modulemap";
-				PRODUCT_MODULE_NAME = HBBoxKit;
-				PRODUCT_NAME = HBBoxKit;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
 		B42B54097A876E8A982CBF5DAA91B1AB /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -677,6 +612,39 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
 				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		B590A72693133D1A0F8103A4A0898064 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BC82F2FD16D572A5220AAD1F18F94797 /* HBBoxKit.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/HBBoxKit/HBBoxKit-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/HBBoxKit/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/HBBoxKit/HBBoxKit.modulemap";
+				PRODUCT_MODULE_NAME = HBBoxKit;
+				PRODUCT_NAME = HBBoxKit;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
 			};
 			name = Release;
 		};
@@ -749,6 +717,38 @@
 			};
 			name = Release;
 		};
+		FFD15B1946BC29439437B6FD91DF3574 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BC82F2FD16D572A5220AAD1F18F94797 /* HBBoxKit.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/HBBoxKit/HBBoxKit-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/HBBoxKit/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/HBBoxKit/HBBoxKit.modulemap";
+				PRODUCT_MODULE_NAME = HBBoxKit;
+				PRODUCT_NAME = HBBoxKit;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -779,11 +779,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		88FF421476AA2184C4B4FA7F0AB0B9FE /* Build configuration list for PBXNativeTarget "HBBoxKit" */ = {
+		7359B273D1EEEAB85237A704E95C661F /* Build configuration list for PBXNativeTarget "HBBoxKit" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				90F1B88378BB8EF3241BD386A9B9FF85 /* Debug */,
-				990E37F12A6757091CD16242429A8247 /* Release */,
+				FFD15B1946BC29439437B6FD91DF3574 /* Debug */,
+				B590A72693133D1A0F8103A4A0898064 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

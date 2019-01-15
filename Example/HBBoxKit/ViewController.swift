@@ -14,7 +14,7 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
-        NSLog("\(HBTools.hb_formatMoney(withMoneyString: "10000"))")
+//        NSLog("\(HBTools.hb_formatMoney(withMoneyString: "10000"))")
     }
 
     override func didReceiveMemoryWarning() {

@@ -1,5 +1,5 @@
 PODS:
-  - HBBoxKit (0.1.2)
+  - HBBoxKit (0.1.4)
 
 DEPENDENCIES:
   - HBBoxKit (from `../`)
@@ -9,7 +9,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  HBBoxKit: 2af47f26eeaba92f4ea03f24d6625d8a573779bb
+  HBBoxKit: 6367e51483e54a63e44c25bc5d228c54af5b2519
 
 PODFILE CHECKSUM: 4718cdb1f41fa0f5051e4ac2ee8bde2bb4c3abd1
 

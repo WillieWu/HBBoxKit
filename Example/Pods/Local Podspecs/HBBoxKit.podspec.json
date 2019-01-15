@@ -1,6 +1,6 @@
 {
   "name": "HBBoxKit",
-  "version": "0.1.2",
+  "version": "0.1.4",
   "summary": "Common utility classes",
   "description": "Collect commonly used methods and classes",
   "homepage": "https://github.com/WillieWu/HBBoxKit.git",
@@ -13,7 +13,7 @@
   },
   "source": {
     "git": "https://github.com/WillieWu/HBBoxKit.git",
-    "tag": "0.1.2"
+    "tag": "0.1.4"
   },
   "platforms": {
     "ios": "8.0"
