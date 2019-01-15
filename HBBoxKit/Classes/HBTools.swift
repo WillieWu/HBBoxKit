@@ -44,8 +44,10 @@ public extension DispatchQueue {
     }
 }
 
+//MARK: 通用方法相关
 public class HBTools: NSObject {
     private static var numFormat: NumberFormatter?
+    
     /// view safeView
     public class func hb_safeViewInset() -> UIEdgeInsets {
         let rootVc = UIApplication.shared.keyWindow!
@@ -86,9 +88,8 @@ public class HBTools: NSObject {
     }
 }
 
-//MARK: 系统信息相关
+//MARK: 权限请求相关
 public extension HBTools {
-    
     /// 打开URL
     ///
     /// - Parameter urlString: 设置页面：UIApplicationOpenSettingsURLString
@@ -208,7 +209,10 @@ public extension HBTools {
         //向APNs请求token
         UIApplication.shared.registerForRemoteNotifications()
     }
-    
+}
+
+//MARK: 系统信息相关
+public extension HBTools {
     /// APP版本号和APP的build版本号
     public class func hb_APPFullVersion(_ connectString: String = "-") -> String {
         guard let version = hb_APPVersion() else { return "" }
@@ -267,7 +271,7 @@ public extension HBTools {
     }
 }
 
-//MARK: Photos相关
+//MARK: Photos资源相关
 public extension HBTools {
     
     /// 根据视频PHAsset, 导出视频到沙盒，获取视频沙盒url
@@ -329,5 +333,20 @@ public extension HBTools {
                 complete(image)
             }
         })
+    }
+    
+    /// 根据PHAsset获取data
+    ///
+    /// - Parameters:
+    ///   - asset: PHAsset
+    ///   - complete: 获取结果
+    public class func help_requestImageData(_ asset: PHAsset, complete: @escaping ((_ getData: Data) -> ())) {
+        let options = PHImageRequestOptions()
+        options.version = .current
+        options.deliveryMode = .highQualityFormat
+        options.isSynchronous = true
+        PHImageManager.default().requestImageData(for: asset, options: options) { (getData, dataUTI, orientation, info) in
+            complete(getData!)
+        }
     }
 }

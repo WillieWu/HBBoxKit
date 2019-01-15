@@ -15,6 +15,7 @@
 		2BFEAEE2D4F06743B18E3B31C278852F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 77B83DCA083CBE59408B60D420E1B815 /* Foundation.framework */; };
 		455C2E19EE74C8BA376D9E1B19BA98D6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 77B83DCA083CBE59408B60D420E1B815 /* Foundation.framework */; };
 		5EC1EF985D859DD8B49C02ECAE576FC1 /* UIImage+HBEx.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2525BA3115FAFDE3892C4DABD25CA9E /* UIImage+HBEx.swift */; };
+		5EF9C1F721EDAC3400A090D1 /* String+HBEx.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EF9C1F621EDAC3400A090D1 /* String+HBEx.swift */; };
 		72E235F4605363524DDF35BB3B43612E /* Date+HBEx.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9490DBF2E5A974BAEF1DF00878B010E1 /* Date+HBEx.swift */; };
 		781172282A915D1D8D37D1AE5E365A59 /* Pods-HBBoxKit_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2F0732263C5D84FF1F9D10D2CF000ED7 /* Pods-HBBoxKit_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		80650BBA08C0CE9A60346DBBEB72C3C6 /* HBBoxKit-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = FF5D4BBC23B76866FFB0B945C4D56C0A /* HBBoxKit-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -58,6 +59,7 @@
 		3AA0C2F032E7D7C1157F76E557BABA81 /* Pods-HBBoxKit_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-HBBoxKit_Example-resources.sh"; sourceTree = "<group>"; };
 		459DD27140C55C620896193B14DFB1E8 /* FileManager+HBEx.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "FileManager+HBEx.swift"; path = "HBBoxKit/Classes/FileManager+HBEx.swift"; sourceTree = "<group>"; };
 		53B045D9A2352DE59C69DFA349C48B09 /* Data+HBEx.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Data+HBEx.swift"; path = "HBBoxKit/Classes/Data+HBEx.swift"; sourceTree = "<group>"; };
+		5EF9C1F621EDAC3400A090D1 /* String+HBEx.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "String+HBEx.swift"; path = "HBBoxKit/Classes/String+HBEx.swift"; sourceTree = "<group>"; };
 		619A5283A31674A145B13D50E9AA3B9B /* Pods_HBBoxKit_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HBBoxKit_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6C451CC6FF3D4007DEB17C8ADD697FBC /* HBBoxKit.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = HBBoxKit.modulemap; sourceTree = "<group>"; };
 		700F85D1132A90DEE28A04D633248888 /* Pods-HBBoxKit_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-HBBoxKit_Example-frameworks.sh"; sourceTree = "<group>"; };
@@ -195,6 +197,7 @@
 		6AE46260B9C2F60506D80D164134BE34 /* HBBoxKit */ = {
 			isa = PBXGroup;
 			children = (
+				5EF9C1F621EDAC3400A090D1 /* String+HBEx.swift */,
 				250F4E1A0DE82A507A9DE5DEB132AA12 /* Color+HBEx.swift */,
 				53B045D9A2352DE59C69DFA349C48B09 /* Data+HBEx.swift */,
 				9490DBF2E5A974BAEF1DF00878B010E1 /* Date+HBEx.swift */,
@@ -399,6 +402,7 @@
 				D2DBB6F71780B7DBFFB4CDF344E4C6BD /* FileManager+HBEx.swift in Sources */,
 				FB92385F8D98A74F752B426617E5B27F /* HBBoxKit-dummy.m in Sources */,
 				E6DDE974A18759E299C6E0B6BC1442B0 /* HBTools.swift in Sources */,
+				5EF9C1F721EDAC3400A090D1 /* String+HBEx.swift in Sources */,
 				1FC2062B420CFB67467681E16321BDBE /* UIAlterViewController+HBEx.swift in Sources */,
 				5EC1EF985D859DD8B49C02ECAE576FC1 /* UIImage+HBEx.swift in Sources */,
 			);
