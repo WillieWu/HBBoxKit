@@ -62,7 +62,7 @@ public extension NSAttributedString {
     public func hb_sizeforHeight(_ maxWidth: CGFloat) -> CGFloat {
         return self.hb_attributedSize(withMaxSize: CGSize.init(width: maxWidth, height: 0)).height
     }
-    
+    //TODO: @whb 记得更换名称
     /// 计算文字Size
     ///
     /// - Parameters:
