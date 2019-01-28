@@ -50,9 +50,12 @@ public class HBTools: NSObject {
     
     /// view safeView
     public class func hb_safeViewInset() -> UIEdgeInsets {
-        let rootVc = UIApplication.shared.keyWindow!
+        var rootVc = UIApplication.shared.keyWindow
+        if rootVc == nil {
+            rootVc = UIWindow()
+        }
         if #available(iOS 11.0, *) {
-            return rootVc.safeAreaInsets
+            return rootVc!.safeAreaInsets
         }
         return UIEdgeInsets.zero
     }
@@ -340,7 +343,7 @@ public extension HBTools {
     /// - Parameters:
     ///   - asset: PHAsset
     ///   - complete: 获取结果
-    public class func help_requestImageData(_ asset: PHAsset, complete: @escaping ((_ getData: Data) -> ())) {
+    public class func hb_requestImageData(_ asset: PHAsset, complete: @escaping ((_ getData: Data) -> ())) {
         let options = PHImageRequestOptions()
         options.version = .current
         options.deliveryMode = .highQualityFormat
