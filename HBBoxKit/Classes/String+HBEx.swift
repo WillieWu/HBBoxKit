@@ -41,6 +41,17 @@ public extension NSString {
         return textBounds.size;
     }
     
+    /// 将毫秒字符串格式化
+    ///
+    /// - Parameter format: 格式化
+    /// - Returns: 格式化后
+    public func hb_dateString(_ format: String = "yyyy-MM-dd HH:mm") -> String {
+        guard Double(self as String) != nil else {
+            return self as String
+        }
+        return Date(unixTimestamp: Double(self as String)!/1000).string(withFormat: format)
+    }
+    
 }
 
 public extension NSAttributedString {

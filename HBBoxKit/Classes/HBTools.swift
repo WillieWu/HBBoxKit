@@ -51,9 +51,7 @@ public class HBTools: NSObject {
     /// view safeView
     public class func hb_safeViewInset() -> UIEdgeInsets {
         var rootVc = UIApplication.shared.keyWindow
-        if rootVc == nil {
-            rootVc = UIWindow()
-        }
+        if rootVc == nil { rootVc = UIWindow() }
         if #available(iOS 11.0, *) {
             return rootVc!.safeAreaInsets
         }
