@@ -320,15 +320,8 @@ public extension HBTools {
     ///   - imageSize: 请求图片的大小
     ///   - complete: 图片获取完成回调
     public class func hb_requestImage(fromAsset photoAsset: PHAsset, isOriginaImage: Bool = false, imageSize: CGSize, complete: @escaping ((_ getImage: UIImage?)->())) {
-        var requestOptions: PHImageRequestOptions?
-        if !isOriginaImage {
-            requestOptions = PHImageRequestOptions()
-            requestOptions!.deliveryMode = .highQualityFormat
-            requestOptions!.isSynchronous = true
-            requestOptions!.version = .current
-            requestOptions!.resizeMode = .fast
-
-        }
+        let requestOptions: PHImageRequestOptions = PHImageRequestOptions()
+        requestOptions.isSynchronous = true
         PHImageManager.default().requestImage(for: photoAsset, targetSize:isOriginaImage ? PHImageManagerMaximumSize : imageSize , contentMode: .aspectFit, options: requestOptions, resultHandler: { (image, imageDic) in
             DispatchQueue.main.async {
                 complete(image)
